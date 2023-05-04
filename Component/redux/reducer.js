@@ -16,6 +16,7 @@ export const reducer = (state = initialState, action) => {
                 });
                 return [...result  ];
 
+                // This is the Default return State for each case
             default:
                 return state;
     }

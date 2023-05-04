@@ -16,12 +16,12 @@ const Login = () => {
 
   const login = () => {
     setModalVisible(true);
-    if (email == '') {
+    if (email === '') {
       setModalVisible(false);
       setBadEmail(true);
     } else {
       setBadEmail(false);
-      if (password == '') {
+      if (password === '') {
         setModalVisible(false);
         setBadPassword(true);
       } else {
@@ -47,7 +47,7 @@ const Login = () => {
   };
 
   return (
-    <View style={{ flex: 1, backgroundColor:'lightgreen' }}>
+    <View style={{ flex: 1, backgroundColor: 'lightgreen' }}>
       <Image
         source={require('../images/playstore.png')}
         style={{ width: 60, height: 60, alignSelf: 'center', marginTop: 100 }}
@@ -85,7 +85,7 @@ const Login = () => {
         }}
       />
       {badPassword === true && (
-        <Text style={{ marginTop: 10, marginLeft: 30, color: 'red'}}>
+        <Text style={{ marginTop: 10, marginLeft: 30, color: 'red' }}>
           Please Enter Password
         </Text>
       )}

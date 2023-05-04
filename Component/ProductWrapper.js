@@ -4,6 +4,8 @@ import Header from './Header';
 import Product from './Product';
 import { ScrollView } from 'react-native-gesture-handler';
 
+// How to make seperate page Recat native for input so that if details is get fill in form that product will be render on page
+
 function ProductWrapper({navigation}) {
 const products = [
   {

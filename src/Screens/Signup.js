@@ -64,7 +64,7 @@ const Signup = () => {
     }
   };
   const saveData = async () => {
-    await AsyncStorage.setItem('NAME', name);
+    await AsyncStorage.multiSet('NAME', name );
     await AsyncStorage.setItem('EMAIL', email);
     await AsyncStorage.setItem('MOBILE', mobile);
     await AsyncStorage.setItem('PASSWORD', password);

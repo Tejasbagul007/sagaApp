@@ -1,0 +1,6 @@
+export const constants = {
+    ADD_MOBILE : 'ADD_MOBILE',
+    DELETE_MOBILE : 'DELETE_MOBILE',
+    UPDATE_MOBILE : 'UPDATE_MOBILE',
+    STORE_MOBILE : 'STORE_MOBILE',
+ };
