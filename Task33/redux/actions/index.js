@@ -11,6 +11,7 @@ export const addMobile = (payload)=>{
 
 };
 
+// Update Mobile
 const updateMobile = (payload)=>{
     const action = {
         type: types.UPDATE_MOBILE,
